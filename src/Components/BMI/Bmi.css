@@ -1,0 +1,24 @@
+.label-color{
+     color: black;
+}
+.spancolor{
+     color: red;
+}
+.bmichart{
+     width: 100%;
+}
+.liStyle{
+     list-style-type:square;
+     color: black;
+     font-size: 20px;
+}
+.paraPoint{
+     color: black;
+     font-size: 15px;
+}
+.color{
+     color: black;
+}
+.bodyValue{
+     color: black;
+}

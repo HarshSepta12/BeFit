@@ -1,0 +1,31 @@
+.container-fluid{
+     background-color:  rgb(193,203,210);
+     width: 100vw;
+     height: 100%;
+
+}
+.heading-1{
+     color: black;
+}
+.para{
+     color: black;
+     margin-left: 0px;
+}
+
+.blogimg{
+     width: 500px;
+     margin-top: 10px;
+     border-radius: 10px;
+}
+.imghover:hover{
+    transition: all, ease 1s;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.imglogo{
+     width: 200px;
+}
+.curs{
+     cursor: pointer;
+     margin-top: 10px;
+}

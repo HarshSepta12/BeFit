@@ -1,0 +1,132 @@
+.bigParent{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     flex-wrap: wrap;
+}
+.bgc {
+     background-color: #000 !important;
+}
+
+.poster1{
+     width: 100%;
+   
+}
+.parentDiv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 40%;
+    
+}
+.brain, .health, .socialBeni{
+     display: flex;
+     align-items: center;
+     margin-top: 20px;
+}
+.para{
+     margin-left: 71px;
+     font-size: 19px;
+}
+.heading-3{
+     color: red;
+     margin-left: 20px;
+     font-size: 25px;
+}
+.heading-3-1{
+     color: red;
+     font-size: 25px;
+}
+.heading-2{
+     color: red;
+}
+.heading-5{
+     color: black;
+}
+.iconSize{
+     font-size: 50px;
+     color: red;
+     background-color: #fff;
+     border-radius: 10px;
+}
+.whyBeFit{
+     background: linear-gradient(to right, #e0eafc, #cfdef3);
+     padding: 10px;
+     margin-bottom: 12px;
+     
+}
+h5{
+     font-size: 20px;
+     color: black;
+     margin-top: 16px;
+}
+.contentPara{
+     color: black;
+     font-size: 18px;
+}
+.content{
+     margin-left: 24px;
+     display: flex;
+}
+.mt{
+     margin-top: 20px;
+}
+.logo{
+     width: 600px;
+}
+
+.about{
+     background: #000000;
+   
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+   
+     padding: 10px;
+}
+.aboutContent{
+     color: rgb(255, 255, 255);
+     font-size: 20px;
+     padding: 10px;
+}
+.me{
+     margin-left: 15px;
+}
+.body{
+     width: 100px;
+     margin-left: 30px;
+     border: 1px solid red;
+     border-radius: 100%;
+}
+.parentOurTeam{
+     background-color: rgb(31,41,55);
+     margin-bottom: 20px;
+}
+.ourTeam{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 10px;
+     gap: 100px;
+   
+}
+.img{
+     width: 120px;
+     height: 110px;
+}
+.member1, .member2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+  
+}
+a{
+     margin-top: 10px;
+     margin-left: 20px;
+}
+a:hover{
+     color: brown;
+}

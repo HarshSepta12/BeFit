@@ -1,0 +1,14 @@
+
+.bgcc{
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #ace5db 0%, #626884 100%);
+  color: black;
+}
+.shadow{
+     background-color: #fff;
+     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+}
+.outli:hover{
+     outline: 1px solid red;
+     box-shadow:  rgba(67, 2, 2, 0.22) 0px 15px 12px;
+}
