@@ -1,6 +1,9 @@
 import React from "react";
 import "./blog.css";
 import { useNavigate } from "react-router-dom";
+import logo from '../../../public/Images/logo.png'
+import blog from '../../../public/Images/Blog.jpg'
+import ravi from '../../../public/Images/ravi.png'
 
 const Blog = () => {
   const navigate = useNavigate()
@@ -29,7 +32,7 @@ const Blog = () => {
             <div className="btn btn-danger w-25">Write A Blog</div>
           </div>
           <div className="col-md-6">
-            <img src="public\Images\Blog.jpg" className="blogimg" alt="" />
+            <img src={blog} className="blogimg" alt="" />
           </div>
         </div>
 
@@ -42,7 +45,7 @@ const Blog = () => {
           <div className="col-md-12 p-5">
           
             <div className="card" style={{width: "18rem"}}>
-              <img src="public\Images\ravi.png" className="card-img-top imghover" alt="..." />
+              <img src={ravi} className="card-img-top imghover" alt="..." />
               <div className="card-body">
               <h5 className="card-title">Blog by: Ravi Kag</h5>
               <p className="card-text">
@@ -59,7 +62,7 @@ const Blog = () => {
 
         <div className="row bg-dark">
           <div className="col-md-6 ">
-            <img src="public\Images\logo.png" alt="logo" className="imglogo"/>
+            <img src={logo} alt="logo" className="imglogo"/>
           </div>
             <div className="col-md-6">
           <div className="row">

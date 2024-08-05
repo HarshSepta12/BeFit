@@ -4,13 +4,18 @@ import { MdHealthAndSafety } from "react-icons/md";
 import { RiMentalHealthLine } from "react-icons/ri";
 import { BiHealth } from "react-icons/bi";
 import { FaInstagram } from "react-icons/fa6";
+import properDiet from '../../../public/Images/Proper Diet.png';
+import GymLogo from '../../../public/Images/GymLogo'
+import Poster1 from '../../../public/Images/poster1.jpg';
+import body from '../../../public/Images/body.jpg'
+import body1 from '../../../public/Images/body1.jpg'
 
 const Home = () => {
   return (
     <div className="container-fluid bgc">
       <div className="row">
         <div className="col-sm-12">
-        <img className="poster1" src="public\Images\poster1.jpg" alt="" />
+        <img className="poster1" src={Poster1} alt="poster1" />
         </div>
       </div>
    
@@ -52,7 +57,7 @@ const Home = () => {
         </div>
         <div className="width">
           <img
-            src="public\Images\Proper Diet.png"
+            src={properDiet}
             alt="ProperDiet"
             className="diet"
           />
@@ -104,7 +109,7 @@ const Home = () => {
       <div className="col-md-6">
       <div className="about">
         <img
-          src="public\Images\logo-7176064.png"
+          src={GymLogo}
           alt="poster"
           className="logo"
           />
@@ -168,17 +173,17 @@ const Home = () => {
         <h3 style={{textAlign:"center",color:"red"}}>Our Team</h3>
       <div className="ourTeam">
               <div className="member1">
-              <img src="public\Images\body.jpg" alt="body" className="body"/>
+              <img src={body} alt="body" className="body"/>
               <h4 style={{textAlign:"center"}}>Sachin Parmar</h4>
               <a href="https://www.instagram.com/harshsepta/" target="blank"><FaInstagram /></a>
               </div>
            <div className="member2">
-           <img src="public\Images\body1.jpg" alt="body" className="body img"/>
+           <img src={body1} alt="body" className="body img"/>
            <h4 style={{textAlign:"center"}}>Ravi Kag</h4>
            <a href="https://www.instagram.com/harshsepta/" target="blank"><FaInstagram /></a>
            </div>
            <div className="member3">
-           <img src="public\Images\body1.jpg" alt="body" className="body img"/>
+           <img src={body1} alt="body" className="body img"/>
            <h4 style={{textAlign:"center"}}>Sunil Mulewa</h4>
            <a href="https://www.instagram.com/harshsepta/" target="blank"><FaInstagram /></a>
            </div>

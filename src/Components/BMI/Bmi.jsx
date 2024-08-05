@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Bmi.css';
 import { useNavigate } from "react-router-dom";
+import bmiChart from '../../../public/Images/BMI Chart.jpeg'
 
 const Bmi = () => {
   const navigate = useNavigate();
@@ -86,7 +87,7 @@ const Bmi = () => {
         </div>
 
         <div className="col-md-8">
-          <img src="public/Images/BMI Chart.jpeg" alt="chart bmi" className="bmichart" />
+          <img src={bmiChart} alt="chart bmi" className="bmichart" />
         </div>
         
       </div>
