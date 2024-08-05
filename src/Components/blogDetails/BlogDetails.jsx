@@ -1,6 +1,7 @@
 import React from "react";
 import "./blogDetails.css";
 import { useNavigate } from "react-router-dom";
+import ravi from '/public/Images/ravi.png'
 
 const BlogDetails = () => {
      const navigate = useNavigate()
@@ -12,13 +13,13 @@ const BlogDetails = () => {
             My Fitness Journey: From Gym Beginner to State-Level Weightlifting
             Champion
           </h1>
-          <img src="public\Images\ravi.png" alt="" className="raviImgwidth" />
+          <img src={ravi} alt="" className="raviImgwidth" />
         </div>
 
         <div className="col-md-4 mt-5 ">
           <div className="card" style={{ width: "18rem" }}>
             <img
-              src="public\Images\ravi.png"
+              src={ravi}
               className="card-img-top imghover"
               alt="..."
             />
