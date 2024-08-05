@@ -5,7 +5,7 @@ import { RiMentalHealthLine } from "react-icons/ri";
 import { BiHealth } from "react-icons/bi";
 import { FaInstagram } from "react-icons/fa6";
 import properDiet from '../../../public/Images/Proper Diet.png';
-import GymLogo from '../../../public/Images/GymLogo'
+import GymLogo from '/public/Images/gymLogo.png'
 import Poster1 from '../../../public/Images/poster1.jpg';
 import body from '../../../public/Images/body.jpg'
 import body1 from '../../../public/Images/body1.jpg'
